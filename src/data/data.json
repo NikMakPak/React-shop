@@ -1,39 +1,63 @@
-[
-  {
-    "header": "Чехлы",
-    "products": [
-      {
-        "title": "Стеклянные",
-        "link": ""
-      },
-      {
-        "title": "Силиконовые",
-        "link": ""
-      },
-      {
-        "title": "Кожаные",
-        "link": ""
-      }
-    ]
-  },
-  {
-    "header": "Наушники",
-    "products": [
-      {
-        "title": "Apple EarPods",
-        "link": "",
-        "price": 1999
-      },
-      {
-        "title": "Apple EarPods",
-        "link": "",
-        "price": 1999
-      },
-      {
-        "title": "Apple EarPods",
-        "link": "",
-        "price": 2999
-      }
-    ]
-  }
-]
+{
+  "groupData": [
+    {
+      "header": "Чехлы",
+      "products": [
+        {
+          "title": "Стеклянные",
+          "link": "img/22459-iwt 1.png"
+        },
+        {
+          "title": "Силиконовые",
+          "link": "img/mellow-yellow-1 1.png"
+        },
+        {
+          "title": "Кожаные",
+          "link": "img/Image-3.png"
+        }
+      ]
+    }
+  ],
+  "cardsData": [
+    {
+      "header": "Наушники",
+      "products": [
+        {
+          "title": "Apple EarPods",
+          "link": "img/Image-2.png",
+          "price": 1999
+        },
+        {
+          "title": "Apple EarPods",
+          "link": "img/Image-1.png",
+          "price": 1999
+        },
+        {
+          "title": "Apple EarPods",
+          "link": "img/Image.png",
+          "price": 2999
+        }
+      ]
+    },
+    {
+      "header": "Беспроводные наушники",
+      "products": [
+        {
+          "title": "Apple EarPods",
+          "link": "img/Image-6.png",
+          "price": 12990
+        },
+        {
+          "title": "Apple AirPods Pro",
+          "link": "img/Image-5.png",
+          "price": 22999
+        },
+        {
+          "title": "Beats",
+          "link": "img/Image-4.png",
+          "price": 10000
+        }
+      ]
+    }
+  ]
+}
