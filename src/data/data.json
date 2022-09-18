@@ -1,0 +1,39 @@
+[
+  {
+    "header": "Чехлы",
+    "products": [
+      {
+        "title": "Стеклянные",
+        "link": ""
+      },
+      {
+        "title": "Силиконовые",
+        "link": ""
+      },
+      {
+        "title": "Кожаные",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "header": "Наушники",
+    "products": [
+      {
+        "title": "Apple EarPods",
+        "link": "",
+        "price": 1999
+      },
+      {
+        "title": "Apple EarPods",
+        "link": "",
+        "price": 1999
+      },
+      {
+        "title": "Apple EarPods",
+        "link": "",
+        "price": 2999
+      }
+    ]
+  }
+]
