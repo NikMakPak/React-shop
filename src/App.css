@@ -14,7 +14,7 @@ h3{
 body{
     background-color: #EAEAEA;;
 }
-.root{
+#root{
     margin: 0 165px;
 }
 .cards-block__title{
