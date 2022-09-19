@@ -1,9 +1,16 @@
-.title{
+.cardCaption{
     margin-bottom: 79px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 37px 0 22px;
 }
 .wrapperMargin{
     margin-bottom: 80px;
 }
 .cardImg{
     height: 309px;
+}
+.cardPrice{
+    color: #FFA542;
 }

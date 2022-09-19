@@ -11,9 +11,12 @@ const CardsBlock = ({ props, index }) => {
             <div className={css.cardImg + ' card__img'}>
               <img src={item.link} alt='product image' />
             </div>
-            <figcaption className={css.title + ' card__title'}>
-              {item.title}
-            </figcaption>
+            <div className={css.cardCaption}>
+              <figcaption className={'card__title'}>{item.title}</figcaption>
+              <p className={css.cardPrice}>
+                {item.price.toLocaleString('ru-RU')}
+              </p>
+            </div>
           </figure>
         ))}
       </div>
