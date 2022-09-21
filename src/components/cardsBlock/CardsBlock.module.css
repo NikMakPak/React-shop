@@ -4,6 +4,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 0 37px 0 22px;
+    align-items: center;
 }
 .wrapperMargin{
     margin-bottom: 80px;
