@@ -46,3 +46,55 @@
     }
 
 }
+
+@media screen and (max-width: 1320px) {
+    #root{
+        margin: 0 30px;
+    }
+    .login{
+        margin: 0 39px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #root{
+        margin: 0 30px;
+    }
+    .login{
+        margin-top: 25px;
+    }
+    .login form input{
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 0 5px;
+    }
+    .login form button{
+        bottom: -195px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Header_header__rt03G .header__title{
+        font-size: 30px !important;
+    }
+    .Header_header__rt03G .back-link{
+        font-size: 30px;
+    }
+    .Header_header__rt03G img{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .login form button{
+        font-size: 40px;
+    }
+    .login h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .login form input{
+        font-size: 24px;
+        padding: 0 5px;
+        height: 100px;
+    }
+}
