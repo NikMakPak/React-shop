@@ -4,6 +4,7 @@ import data from '../data/data.json'
 import GroupsBlock from '../components/groupsBlock/GroupsBlock'
 import CardsBlock from '../components/cardsBlock/CardsBlock'
 import Modal from '../components/modal/Modal'
+import { Link } from 'react-router-dom'
 
 const Shop = () => {
   const [clickedCard, setClickedCard] = useState('')
@@ -12,7 +13,14 @@ const Shop = () => {
   }
   return (
     <>
-      <Header />
+      <Header
+        jsxElem={
+          <Link className={'link'} to={'/login'}>
+            Войти
+          </Link>
+        }
+        fontPx={'36px'}
+      />
       {data.groupData.map((item, i) => (
         <GroupsBlock key={i} props={item} func={ClickedCardState} index={i} />
       ))}

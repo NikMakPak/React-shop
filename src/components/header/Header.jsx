@@ -1,13 +1,10 @@
 import React from 'react'
 import css from './Header.module.css'
-import { Link } from 'react-router-dom'
-const Header = () => {
+const Header = ({ jsxElem, fontPx }) => {
   return (
     <header className={css.header}>
-      <h1>R-STORE</h1>
-      <Link className={'link'} to={'/login'}>
-        Войти
-      </Link>
+      <h1 style={{ fontSize: fontPx }}>R-STORE</h1>
+      {jsxElem}
     </header>
   )
 }
