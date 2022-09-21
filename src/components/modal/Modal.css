@@ -1,0 +1,51 @@
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+}
+.modal__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 805px;
+    border-radius: 30px;
+    position: relative;
+}
+.modal__content figcaption{
+    font-size: 32px;
+}
+.modal__content p{
+    font-size: 32px;
+}
+.modal__btn{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 32px;
+    line-height: 39px;
+}
+.modal__content img{
+    object-fit: contain;
+}
+.modal__content .card__img{
+    width: 305px;
+    height: 580px;
+}

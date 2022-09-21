@@ -1,18 +1,17 @@
-import data from './data/data.json'
-import CardsBlock from './components/cardsBlock/CardsBlock'
-import GroupsBlock from './components/groupsBlock/GroupsBlock'
-import Header from './components/header/Header'
 import './App.css'
+import Shop from './pages/Shop'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import Login from './pages/Login'
+
 function App() {
   return (
     <>
-      <Header />
-      {data.groupData.map((item, i) => (
-        <GroupsBlock key={i} props={item} index={i} />
-      ))}
-      {data.cardsData.map((item, i) => (
-        <CardsBlock key={i} props={item} index={i} />
-      ))}
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Shop />} />
+          <Route path='/login' element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
