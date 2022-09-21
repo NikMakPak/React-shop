@@ -14,3 +14,8 @@
 .cardPrice{
     color: #FFA542;
 }
+.likeIcon{
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}

@@ -25,17 +25,20 @@
         {
           "title": "Apple EarPods",
           "link": "img/Image-2.png",
-          "price": 1999
+          "price": 1999,
+          "liked":false
         },
         {
           "title": "Apple EarPods",
           "link": "img/Image-1.png",
-          "price": 1999
+          "price": 1999,
+          "liked": true
         },
         {
           "title": "Apple EarPods",
           "link": "img/Image.png",
-          "price": 2999
+          "price": 2999,
+          "liked": false
         }
       ]
     },
@@ -45,17 +48,20 @@
         {
           "title": "Apple EarPods",
           "link": "img/Image-6.png",
-          "price": 12990
+          "price": 12990,
+          "liked": false
         },
         {
           "title": "Apple AirPods Pro",
           "link": "img/Image-5.png",
-          "price": 22999
+          "price": 22999,
+          "liked": false
         },
         {
           "title": "Beats",
           "link": "img/Image-4.png",
-          "price": 10000
+          "price": 10000,
+          "liked": false
         }
       ]
     }
